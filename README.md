@@ -244,10 +244,6 @@ NoonAI 是常规 Node.js 服务，适合部署到 Render、Railway、Fly.io 或�
 2. 保持改动聚焦，不提交 `.env`、API key 和本地数据。
 3. 运行最窄范围的相关测试，并在 PR 中说明验证结果。
 
-## 许可证
-
-本项目许可证待发布者确认。开源前请将本节替换为实际许可证，并在仓库根目录加入对应的 `LICENSE` 文件。
-
 ## English Summary
 
 NoonAI is an open-source AI workspace for creators and indie developers. It combines an OpenAI-compatible chat interface, image generation, PPT planning, AI drama workflows, and structured model evaluation in a lightweight Node.js application. API keys stay on the server, while model providers and rendering services are connected through environment-driven adapters.
