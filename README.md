@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/noon-line-logo.png" alt="NoonAI" width="220" />
+  <p><img src="./public/noon-line-logo.png" alt="NoonAI" width="220" /></p>
 
   # NoonAI
 
@@ -22,11 +22,11 @@
   </p>
 </div>
 
-<p align="center">
-  <img src="public/ai-drama/assets/hero-manga-studio.png" alt="NoonAI AI 漫剧工作台预览" width="92%" />
-</p>
+![NoonAI AI 漫剧工作台预览](./public/ai-drama/assets/hero-manga-studio.png)
 
 > NoonAI 不只是一个聊天页面。它把模型调用、创作工具、评测方法和可继续扩展的应用入口组合成一个个人 AI 工作台。
+
+> **发布提示**：README 中的视觉素材来自 `public/` 目录。发布到 GitHub 时需要连同 `public/` 一起提交，否则图片会显示为裂图。
 
 ## 为什么是 NoonAI
 
@@ -42,28 +42,23 @@
 
 ### 1. AI 对话工作台
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="public/noon-wordmark-solid.png" alt="NoonAI 对话入口" width="180" />
-      <h4>ChatGPT 风格交互</h4>
-      <p>支持多模型选择、流式输出、停止生成、重新生成、复制、点赞/点踩、会话搜索与本地历史。</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="public/tools-create-image-icon.png" alt="图片生成" width="64" />
-      <h4>多模态创作入口</h4>
-      <p>对接 OpenAI-compatible 聊天与图片生成接口，并为视频、语音、联网搜索和文件能力保留扩展位。</p>
-    </td>
-  </tr>
-</table>
+![NoonAI 对话入口](./public/noon-wordmark-solid.png)
+
+#### ChatGPT 风格交互
+
+支持多模型选择、流式输出、停止生成、重新生成、复制、点赞/点踩、会话搜索与本地历史。
+
+![图片生成](./public/tools-create-image-icon.png)
+
+#### 多模态创作入口
+
+对接 OpenAI-compatible 聊天与图片生成接口，并为视频、语音、联网搜索和文件能力保留扩展位。
 
 ### 2. PPT Studio
 
-<p align="center">
-  <img src="public/ppt/assets/template-tech-blue.jpg" alt="PPT Studio 科技蓝模板" width="31%" />
-  <img src="public/ppt/assets/template-editorial.jpg" alt="PPT Studio 编辑风格模板" width="31%" />
-  <img src="public/ppt/assets/template-executive.jpg" alt="PPT Studio 高管汇报模板" width="31%" />
-</p>
+![PPT Studio 科技蓝模板](./public/ppt/assets/template-tech-blue.jpg)
+![PPT Studio 编辑风格模板](./public/ppt/assets/template-editorial.jpg)
+![PPT Studio 高管汇报模板](./public/ppt/assets/template-executive.jpg)
 
 PPT Studio 是一个从需求到演示结构的工作流，而不是简单的文本生成器：
 
@@ -77,11 +72,9 @@ PPT Studio 是一个从需求到演示结构的工作流，而不是简单的文
 
 ### 3. AI 漫剧工厂
 
-<p align="center">
-  <img src="public/ai-drama/assets/features/script-analysis.png" alt="剧本分析" width="30%" />
-  <img src="public/ai-drama/assets/features/episode-planning.png" alt="分集规划" width="30%" />
-  <img src="public/ai-drama/assets/features/continuity-check.png" alt="连续性检查" width="30%" />
-</p>
+![剧本分析](./public/ai-drama/assets/features/script-analysis.png)
+![分集规划](./public/ai-drama/assets/features/episode-planning.png)
+![连续性检查](./public/ai-drama/assets/features/continuity-check.png)
 
 面向短剧和连续剧创作，提供剧本分析、分集规划、角色锁定、连续性检查、系列资产管理和批量生成等工作流入口。
 
@@ -249,4 +242,3 @@ NoonAI 是常规 Node.js 服务，适合部署到 Render、Railway、Fly.io 或�
 NoonAI is an open-source AI workspace for creators and indie developers. It combines an OpenAI-compatible chat interface, image generation, PPT planning, AI drama workflows, and structured model evaluation in a lightweight Node.js application. API keys stay on the server, while model providers and rendering services are connected through environment-driven adapters.
 
 Repository URL: `<YOUR_GITHUB_REPOSITORY_URL>`
-
